@@ -6,10 +6,10 @@ const inputName = document.getElementById("username");
 const inputLogin = document.getElementById("login");
 const regForm = document.getElementById("reg-form");
 
-
 regForm.addEventListener("submit", (e) => {
 
   e.preventDefault()
+
   if (inputName.value.length == 0) {
     inputName.style.border = "2px solid red";
   } else if (inputLogin.value.length == 0) {
@@ -23,7 +23,6 @@ regForm.addEventListener("submit", (e) => {
     renderData()
   }
 });
-
 
 function watchError() {
   errorMessage.style.display = "block";
