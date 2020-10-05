@@ -13,7 +13,7 @@ class GetData {
 function renderData() {
   const data = new GetData("https://5f79f290e402340016f935cf.mockapi.io/users/users");
   data.getData().then((res) => {
-    for (var i = 0; i < res.length; i++) {
+    for (let i = 0; i < res.length; i++) {
 
       let userName = document.createElement("input");
       userName.classList.add('user-name')
