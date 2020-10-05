@@ -1,0 +1,88 @@
+body {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.reg-container,
+.auth-container {
+  width: 450px;
+  margin: 20px auto;
+  border: solid black 1px;
+  display: flex;
+  border-radius: 10px;
+  background: linear-gradient(90deg, rgba(245,245,245,1) 64%, rgba(175,121,212,1) 100%);
+  box-shadow: 1px 1px 30px 3px black;
+}
+
+.reg-input,
+.pass,
+.conf-pass,
+.auth-login,
+.auth-pass,
+.auth-button {
+  box-sizing: border-box;
+  width: 70%;
+  height: 30px;
+  margin: 7px 0px 0px 0px;
+  font-size: 16px;
+  border: solid black 1px;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.reg-wrapper,
+.auth-wrapper {
+  display: flex;
+  align-self: center;
+  font-weight: bold;  
+}
+
+.regform-item-wrapper,
+.auth-item-wrapper {
+  padding: 10px 15px 15px 15px;
+}
+
+.registration,
+.authentification {
+  text-align: center;
+}
+
+.authorise-text {
+  font-size: 14px;
+}
+
+span {
+  text-decoration: underline;
+  color: red;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  padding: 10px 15px 15px 15px;
+  display: none;
+}
+
+.all-users {
+  display: none;
+  width: 400px;
+}
+
+.user-name,
+.user-login {
+  height: 27px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.user-name {
+  width: 275px;
+}
+
+.user-login {
+  width: 90px;
+}
+
+.authBlock {
+  display: block;
+}
+

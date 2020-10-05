@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="auth-block">
+    <h1 class="authentification">Authentification </h1>
+    <div class="auth-container">
+      <div class="auth-wrapper">
+        <form id="auth-form">
+
+          <div class="auth-item-wrapper">
+            <label for="login">Enter your login:</label>
+            <input type="text" placeholder="Your Login" max="255" class="auth-login" required><br>
+          </div>
+
+          <div class="auth-item-wrapper">
+            <label for="password">Enter password:</label>
+            <input type="password" placeholder="Your Password" max="255" class="auth-pass" required><br>
+          </div>
+
+          <div class="error-message"> Such user does not exist. <br>
+            Please <a href="index.html">register here</a></div>
+
+          <div class="auth-item-wrapper">
+            <input type="submit" value="OK" id="auth-button" class="auth-button">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="all-users">
+    <h2>All Users</h2>
+  </div>
+
+  <script src="general.js"></script>
+  <script src="auth-script.js"></script>
+</body>
+
+</html>

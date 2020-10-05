@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="registration-block">
+    <h1 class="registration">Registration</h1>
+    <div class="reg-container">
+      <div class="reg-wrapper">
+        <form id="reg-form">
+
+          <div class="regform-item-wrapper">
+            <label for="name">Enter your name:</label>
+            <input type="text" placeholder="Your Name" max="255" class="reg-input" id="username" required><br>
+          </div>
+
+          <div class="regform-item-wrapper">
+            <label for="login">Enter your login:</label>
+            <input type="text" placeholder="Your Login" max="255" class="reg-input" id="login" required><br>
+          </div>
+
+          <div class="regform-item-wrapper">
+            <label for="password">Enter password:</label>
+            <input type="password" placeholder="Your Password" max="255" class="pass" required><br>
+          </div>
+
+          <div class="regform-item-wrapper">
+            <label for="conf-password">Confirm your password:</label>
+            <input type="password" placeholder="Сonfirm your Password" class="conf-pass" required><br>
+          </div>
+
+          <div class="error-message">
+            The passwords you have <br> entered are different.
+          </div>
+
+          <div class="regform-item-wrapper">
+            <input type="submit" value="OK" class="reg-input">
+
+            <p class="authorise-text">Already exist in a system? <br>
+              Please <span> <a href="auth.html">authorise here.</a></span></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="all-users">
+    <h2>All Users</h2>
+  </div>
+  <script src="general.js"></script>
+  <script src="reg-script.js"></script>
+</body>
+
+</html>
